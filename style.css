@@ -3,9 +3,9 @@ body{
     width: 100vw;
     /* overflow-x: hidden; */
 }
-div{
+/* div{
     border: 1px solid red;
-}
+} */
 
 /* HAMBURGER STYLING */
 
@@ -177,7 +177,7 @@ div{
     grid-template-columns: auto auto auto;
     position: absolute;
     width: 100vw;
-    height: 65vh;
+    height: 70vh;
     left: 0;
     top: 15%;
     padding: 20px 0;
@@ -488,6 +488,10 @@ div{
     align-items: center;
     width: 100vw;
     height: 120vh;
+    /* padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
 }
 #ta2{
     display: grid;
@@ -528,16 +532,19 @@ div{
     line-height: 1.7rem;
     color: #696969;
     font-family: "Source Sans Pro", Arial, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
 
 }
 #ta3 a{
     text-decoration: none;
     color: #0074cc;
 }
-#ta4{
+#ta4 .scroll{
     display: grid;
     grid-template-columns: repeat(4,auto);
 }
+
 #ta4 .a3{
     padding: 20px;
 }
@@ -604,6 +611,9 @@ div{
     width: 100vw;
     height: 200vh;
 }
+#section3 p{
+    margin: 0;
+}
 #header{
     display: flex;
     gap: 15px;
@@ -653,9 +663,10 @@ div{
     cursor: pointer;
 }
 #o{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     margin-top: 30px;
-    gap: 61px;
+    gap: 39px;
 }
 .o1{
     display: flex;
@@ -682,6 +693,10 @@ div{
     font-size: 1.2rem;
     font-family: "Roboto Slab";
 }
+.o2, .r2, .p2,.s2{
+    display: flex;
+    justify-content: right;
+}
 .o2a{
     font-size: 1.18rem;
     color: rgb(59, 64, 69);
@@ -703,7 +718,8 @@ div{
     margin-left: 5px;
 }
 #p{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     margin-top: 30px;
     gap: 37px;
 }
@@ -754,7 +770,8 @@ div{
     margin-left: 11px;
 }
 #r{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     margin-top: 30px;
     gap: 40px;
 }
@@ -804,15 +821,16 @@ div{
     margin-left: 5px;
 }
 #s{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     margin-top: 30px;
-    gap: 21px;
+    gap: 39px;
 }
 .s1{
     display: flex;
     flex-direction: column;
     padding-left: 30px;
-    gap: 15px;
+    gap: 5px;
 }
 .s1a{
     display: flex;
@@ -984,9 +1002,10 @@ div{
 }
 #ta5{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
     gap: 40px;
+    margin:50px;
 
 }
 #ta5 img{
@@ -1019,7 +1038,7 @@ div{
 
 #section5{
     width: 100vw;
-    height: 40vh;
+    height: 50vh;
 }
 #ta6{
     display: flex;
@@ -1030,6 +1049,8 @@ div{
     display: flex;
     flex-direction: column;
     gap: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .d1{
     font-size: 1.7rem;
@@ -1087,6 +1108,8 @@ div{
     display: grid;
     grid-template-columns: 10fr 9fr 8fr;
     padding: 0 50px 0 50px ;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 #e, #f, #g{
     padding:70px 0 70px 0;
@@ -1129,22 +1152,28 @@ div{
     height: 40vh;
     background-color: rgb(35, 38, 41);
     font-family: "Source Sans Pro", Arial, sans-serif;
+    
 }
 #section7 img{
     height: 50px;
     width: 50px;
+    
 }
 #ta8{
     display: grid;
-    grid-template-columns: 2.5fr 2fr 2fr 2fr 2fr;
-    padding-top: 50px;
-    padding-left: 50px;
+    grid-template-columns: 1fr 2fr;
+    padding: 50px;
     
 }
 .h{
     display: flex;
     flex-direction: column;
     gap: 90px;
+}
+#general{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: auto;
 }
 .h4{
     box-sizing: border-box;
