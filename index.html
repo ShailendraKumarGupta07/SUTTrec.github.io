@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StackOverflow</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&amp;family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- navbar -->
+
+<div id="navbar">
+    <!-- code for hamburger starts here -->
+    <div id="hamburger">
+        <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <div id="hide">
+            <div id="parentB">
+                <div class="contentB">
+                <div class="contentB1">
+                    <div class="content1A">
+                        <div class="content1Aa">Enable Your Organizations</div>
+                    </div>
+                    <div class="content1B">
+                        <div class="content1Ba">
+                            <img src="images/hamburgerimg1white.png" alt="">
+                        </div>
+                        <div class="content1Bb">
+                            <div class="content1Bba">Stack Overflow for Teams</div>
+                            <div class="content1Bbb">Where developers and technologists share private <br> knowledge with coworkers</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contentB2">
+                    <div class="content1A">
+                        <div class="content1Aa">Connect with your community</div>
+                    </div>
+                    <div class="contentB2A">
+                    <div class="content1B">
+                        <div class="content1Ba">
+                            <img src="images/hamburger2imgwhite.png" alt="">
+                        </div>
+                        <div class="content1Bb">
+                            <div class="content1Bba">Stack Overflow Talent</div>
+                            <div class="content1Bbb">Where companies build their employer brand to <br> attract top tech talent</div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="contentB2B">
+                    <div class="content1B">
+                        <div class="content1Ba">
+                            <img src="images/hamburger3imgwhite.png" alt="">
+                        </div>
+                        <div class="content1Bb">
+                            <div class="content1Bba">Stack Overflow Advertising</div>
+                            <div class="content1Bbb">Where companies reach the world's largest <br>audience of developers and technologists.</div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="contentB2C">
+                    <div class="content1B">
+                        <div class="content1Ba">
+                            <img src="images/hamburger4imgwhite.png" alt="">
+                        </div>
+                        <div class="content1Bb">
+                            <div class="content1Bba">Collectives™ on Stack Overflow</div>
+                            <div class="content1Bbb">Where developer communities connect with the <br> specific technologies they use the most.</div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="contentB3">
+                    <div class="contentB3A">
+                        <div class="content1A">
+                            <div class="content1Aa">Join the community</div>
+                        </div>
+                        <div class="content1B">
+                            <div class="content1Ba">
+                                <img src="images/LOGO.png" alt="">
+                            </div>
+                            <div class="content1Bb">
+                                <div class="content1Bba">Stack Overflow<i class="fa-solid fa-arrow-up-right-from-square" style="color: rgb(82, 89, 96);"></i></div>
+                                <div class="content1Bbb">Where developers and technologists go to gain and <br>share knowledge.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contentB3B">
+                        <div class="content1B">
+                            <div class="content1Ba">
+                                <img src="images/logo3.svg" alt="">
+                            </div>
+                            <div class="content1Bb">
+                                <div class="content1Bba">Stack Exchange<i class="fa-solid fa-arrow-up-right-from-square" style="color: rgb(82, 89, 96);"></i></div>
+                                <div class="content1Bbb">Where the world explores technical topics and other <br> disciplines across 170+ Q&A communities.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="logo" >
+        <img src="images/stacklogo.svg" alt="">
+    </div>
+    <button id="nav1" class="a">
+        <div class="nav1a">
+        <p onclick="onClickMenu()"> Our products </p>
+        <div class="bar4"></div>
+        <div class="bar5"></div>
+        <div id="Bar1"></div>
+        </div>
+        <div id="parentB">
+        <div class="contentB">
+        <div class="contentB1">
+            <div class="content1A">
+                <div class="content1Aa">Enable Your Organizations</div>
+            </div>
+            <div class="content1B">
+                <div class="content1Ba">
+                    <img src="images/hamburgerimg1white.png" alt="">
+                </div>
+                <div class="content1Bb">
+                    <div class="content1Bba">Stack Overflow for Teams</div>
+                    <div class="content1Bbb">Where developers and technologists share private <br> knowledge with coworkers</div>
+                </div>
+            </div>
+        </div>
+        <div class="contentB2">
+            <div class="content1A">
+                <div class="content1Aa">Connect with your community</div>
+            </div>
+            <div class="contentB2A">
+            <div class="content1B">
+                <div class="content1Ba">
+                    <img src="images/hamburger2imgwhite.png" alt="">
+                </div>
+                <div class="content1Bb">
+                    <div class="content1Bba">Stack Overflow Talent</div>
+                    <div class="content1Bbb">Where companies build their employer brand to <br> attract top tech talent</div>
+                </div>
+            </div>
+            </div>
+            <div class="contentB2B">
+            <div class="content1B">
+                <div class="content1Ba">
+                    <img src="images/hamburger3imgwhite.png" alt="">
+                </div>
+                <div class="content1Bb">
+                    <div class="content1Bba">Stack Overflow Advertising</div>
+                    <div class="content1Bbb">Where companies reach the world's largest <br>audience of developers and technologists.</div>
+                </div>
+            </div>
+            </div>
+            <div class="contentB2C">
+            <div class="content1B">
+                <div class="content1Ba">
+                    <img src="images/hamburger4imgwhite.png" alt="">
+                </div>
+                <div class="content1Bb">
+                    <div class="content1Bba">Collectives™ on Stack Overflow</div>
+                    <div class="content1Bbb">Where developer communities connect with the <br> specific technologies they use the most.</div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="contentB3">
+            <div class="contentB3A">
+                <div class="content1A">
+                    <div class="content1Aa">Join the community</div>
+                </div>
+                <div class="content1B">
+                    <div class="content1Ba">
+                        <img src="images/LOGO.png" alt="">
+                    </div>
+                    <div class="content1Bb">
+                        <div class="content1Bba">Stack Overflow<i class="fa-solid fa-arrow-up-right-from-square" style="color: rgb(82, 89, 96);"></i></div>
+                        <div class="content1Bbb">Where developers and technologists go to gain and <br>share knowledge.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="contentB3B">
+                <div class="content1B">
+                    <div class="content1Ba">
+                        <img src="images/logo3.svg" alt="">
+                    </div>
+                    <div class="content1Bb">
+                        <div class="content1Bba">Stack Exchange<i class="fa-solid fa-arrow-up-right-from-square" style="color: rgb(82, 89, 96);"></i></div>
+                        <div class="content1Bbb">Where the world explores technical topics and other <br> disciplines across 170+ Q&A communities.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </button>
+    <button id="nav2" class="a">
+        <div id="nav2a">
+        <p onclick="onClickMenu2()"> Our company  </p>
+        <div class="bar4"></div>
+        <div class="bar5"></div>
+        <div id="Bar2"></div>
+        </div>
+        <div id="contentA">
+            <div class="content2">
+                <div class="content2a">Leadership</div>
+                <div class="content2b">Press</div>
+                <div class="content2c">Research</div>
+                <div class="content2d">Social Impact</div>
+            </div>
+        </div>
+
+    </button>
+    <button id="nav3" class="a">
+        <p>  Careers</p>
+    </button>
+    <button id="nav4" class="a">
+        <p> Open positions</p>
+    </button>
+    <button id="nav5" class="a">
+        <div id="nav5a"><p onclick="onClickMenu3()">Follow us </p>
+        <div class="bar4"></div>
+        <div class="bar5"></div>
+        <div id="Bar3"></div>
+        </div>
+        <div id="content">
+            <div class="content3">
+            <div class="content3a">Blog <i class="fa-solid fa-arrow-up-right-from-square" style="color: rgb(82, 89, 96);"></i> </div>
+            <div class="content3b"> Podcast<i class="fa-solid fa-arrow-up-right-from-square" style="color: rgb(82, 89, 96);"></i></div>
+            <div class="content3c">Newsletter<i class="fa-solid fa-arrow-up-right-from-square" style="color: rgb(82, 89, 96);"></i></div>
+            </div>  
+        </div>
+    </button>
+    <div id="nav6">
+        <button>Contact</button>
+    </div>
+    
+</div>
+
+<!-- section1 -->
+
+<div id="section1">
+    <div id="ta1"> 
+        <div id="text1">
+            <p>Who we are</p>
+        </div>
+        <div id="text2">
+            <p> Empowering the world to<br> develop technology through<br> collective knowledge.</p>
+        </div>
+        <div id="text3">
+            <div class="text3a">
+                <div >Our public platform</div>
+                <div class="b">serves 100 million people every month, </div>
+                <div >making it one of the</div>
+            </div>
+            <div class="text3b">
+                most popular websites in the world.
+            </div>
+        </div>
+        <div id="text4">
+            <div class="text4a">
+                <div>Our asynchronous knowledge management and collaboration offering,</div>
+                <div class="b">Stack</div>
+            </div>
+            <div class="text4b">
+                <div class="b">Overflow for Teams,</div>
+                <div>is transforming how people work.</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- section2 -->
+
+<div id="section2">
+    <div id="ta2">
+        <div class="gridcontent">
+            <div class="g1"> 100+ million</div>
+            <div class="g2">Monthly visitors to our <br>network</div>
+        </div>
+        <div class="gridcontent">
+            <div class="g1">21+ million</div>
+            <div class="g2">Questions asked to-date</div>
+        </div>
+        <div class="gridcontent">
+            <div class="g1">13.6 seconds</div>
+            <div class="g2">Average time between new <br>questions</div>
+        </div>
+        <div class="gridcontent">
+            <div class="g1">50.6+ billion</div>
+            <div class="g2">Times a developer got help</div>
+        </div>
+        <div class="gridcontent">
+            <div class="g1">10,000+</div>
+            <div class="g2">Customer companies for all <br> products</div>
+        </div>
+    </div>
+    <div id="ta3">
+        <div class="a1">
+            Stack Overflow helps people find the answers they need, when <br>they need them. We're best known for our public Q&A platform <br>that over 100 million people visit every month to ask questions, <br>learn, and share technical knowledge.
+        </div>
+        <div class="a2">
+            Our products and tools empower people to find what they need to <br> develop technology at work or at home. These products include,<br> <a href="">Stack Overflow for Teams</a>, <a href="">Stack Overflow Advertising</a>, <a href="">Collectives™ <br>on Stack Overflow</a>, <a href="">and Stack Overflow Talent</a>.
+        </div>
+    </div>
+    <div id="ta4">
+        <div class="a3">
+            <div class="awards">
+                <img src="images/img1.webp" alt="">
+            </div>
+            <div class="name"> APPEALIE SaaS <br> Awards</div>
+            <div class="category"> Collaboration +  <br>Productivity</div>
+            <div class="year one">
+                <div class="bar6"></div>
+                <div class="a4">2021</div>
+                <div class="bar7"></div>
+            </div>
+        </div>
+        <div class="a3">
+            <div class="awards">
+                <img src="images/img2.svg" alt="">
+            </div>
+            <div class="name"> RemoteTech Awards</div>
+            <div class="category">Developer Collaboration <br> Platform</div>
+            <div class="year two">
+                <div class="bar6"></div>
+                <div class="a4">2021-2022</div>
+                <div class="bar7"></div>
+            </div>
+        </div>
+        <div class="a3">
+            <div class="awards">
+                <img src="images/img3.svg" alt="">
+            </div>
+            <div class="name">The SaaS Awards</div>
+            <div class="category">Best SaaS for <br>Productivity</div>
+            <div class="year three">
+                <div class="bar6"></div>
+                <div class="a4">2022</div>
+                <div class="bar7"></div>
+            </div>
+        </div>
+        <div class="a3">
+            <div class="awards">
+                <img src="images/img4.webp" alt="">
+            </div>
+            <div class="name">Webby</div>
+            <div class="category">The Best of the Internet</div>
+            <div class="year four">
+                <div class="bar6"></div>
+                <div class="a4">2021</div>
+                <div class="bar7"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- section3(our products) -->
+<!-- 
+<div id="section3">
+    <div id="header">
+        <div class="bar8"></div>
+        <div class="h1"> Our Products</div>
+        <div class="bar8"></div>
+    </div>
+    <div id="product1" class="b1">
+        <div id="n">
+            <div class="n1">
+                <img src="images/LOGO.png" alt="">
+            </div>
+            <div class="n2">Our Public Platform</div>
+            <div class="n3"> Where developers and technologists go to gain and share knowledge</div>
+            <div class="n4">
+                <button> Participate &nbsp; <i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></button>
+            </div>
+        </div>
+    </div>
+    <div id="products">
+        <div id="product2" class="b2">
+            <div id="o">
+               <div class="o1">
+                <div class="o1a">
+                    <div class="o1a1">
+                        <img src="images/LOGO.png" alt="">
+                    </div>
+                    <div class="o1a2"></div>
+                    <div class="o1a3"> FOR TEAMS</div>
+                </div>
+                <div class="o2a"> 
+                    Where developers and <br>
+                    technologists share private <br>
+                    knowledge with coworkers.
+                </div>
+                <div class="o3a">
+                    <button> Learn more</button>
+                </div>
+               </div>
+               <div class="o2">
+                <img src="images/img5.png" alt="">
+               </div> 
+            </div>
+        </div>
+        <div id="product3" class="b2">
+            <div id="p">
+                <div class="p1">
+                 <div class="p1a">
+                     <div class="p1a1">
+                         <img src="images/LOGO.png" alt="">
+                     </div>
+                     <div class="p1a2"></div>
+                     <div class="p1a3"> TALENT</div>
+                 </div>
+                 <div class="p2a"> 
+                    Where companies build their <br>
+                    employer brand to attract top <br>
+                    tech talent
+                 </div>
+                 <div class="p3a">
+                     <button> Learn more</button>
+                 </div>
+                </div>
+                <div class="p2">
+                 <img src="images/img6.png" alt="">
+                </div> 
+             </div>
+        </div>
+        <div id="product4" class="b2">
+            <div id="r">
+                <div class="r1">
+                 <div class="r1a">
+                     <div class="r1a1">
+                         <img src="images/LOGO.png" alt="">
+                     </div>
+                     <div class="r1a2"></div>
+                     <div class="r1a3"> ADVERTISING</div>
+                 </div>
+                 <div class="r2a"> 
+                    Where companies reach the <br>
+                    world's largest audience of <br>
+                    developers and technologists.
+                 </div>
+                 <div class="r3a">
+                     <button> Learn more</button>
+                 </div>
+                </div>
+                <div class="r2">
+                 <img src="images/img7.png" alt="">
+                </div> 
+             </div>
+        </div>
+        <div id="product5" class="b2">
+            <div id="s">
+                <div class="s1">
+                 <div class="s1a">
+                     <div class="s1a1">
+                         <img src="images/LOGO.png" alt="">
+                     </div>
+                     <div class="s1a2"></div>
+                     <div class="s1a3"> COLLECTIVES</div>
+                 </div>
+                 <div class="s2a"> 
+                    Where developer communities <br>
+                    connect with the specific <br>
+                    technologies they use the most. 
+                 </div>
+                 <div class="s3a">
+                     <button> Learn more</button>
+                 </div>
+                </div>
+                <div class="s2">
+                 <img src="images/img8.png" alt="">
+                </div> 
+             </div>
+        </div>
+    </div>
+    <div id="header2">
+        <div class="h2">Used by thousands of organizations around the globe</div>
+    </div>
+    <div id="companies">
+        <div class="company">
+        <div class="comp">
+            <img src="images/img9.svg" alt="">
+        </div>
+        <div class="comp">
+            <img src="images/img10.svg" alt="">
+        </div>
+        <div class="comp">
+            <img src="images/img11.svg" alt="">
+        </div>
+        <div class="comp">
+            <img src="images/img12.svg" alt="">
+        </div>
+        <div class="comp5">
+            <img src="images/img13.svg" alt="">
+        </div>
+        <div class="comp">
+            <img src="images/img14.svg" alt="">
+        </div>
+        <div class="comp">
+            <img src="images/img15.svg" alt="">
+        </div>
+        <div class="comp">
+            <img src="images/img16.svg" alt="">
+        </div>
+        <div class="comp">
+            <img src="images/img17.svg" alt="">
+        </div>
+        <div class="comp">
+            <img src="images/img18.svg" alt="">
+        </div>
+        </div>
+        <div class="company">
+        <div class="comp">
+            <img src="images/img9.svg" alt="">
+        </div>
+        <div class="comp">
+            <img src="images/img10.svg" alt="">
+        </div>
+        <div class="comp">
+            <img src="images/img11.svg" alt="">
+        </div>
+        <div class="comp">
+            <img src="images/img12.svg" alt="">
+        </div>
+        <div class="comp5">
+            <img src="images/img13.svg" alt="">
+        </div>
+        <div class="comp">
+            <img src="images/img14.svg" alt="">
+        </div>
+        <div class="comp">
+            <img src="images/img15.svg" alt="">
+        </div>
+        <div class="comp">
+            <img src="images/img16.svg" alt="">
+        </div>
+        <div class="comp">
+            <img src="images/img17.svg" alt="">
+        </div>
+        <div class="comp">
+            <img src="images/img18.svg" alt="">
+        </div>
+        </div>
+    </div>
+</div> -->
+
+<!-- SECTION4(OUR CORE VALUES) -->
+<!-- 
+<div id="section4">
+    <div id="header3">
+        <div class="bar8"></div>
+        <div class="h1"> Our core values</div>
+        <div class="bar8"></div>
+    </div>
+    <div id="ta5">
+        <div class="c">
+            <div class="slogo">
+                <img src="images/heart.png" alt="">
+            </div>
+            <div class="c1">
+                Adopt a customer-first <br>
+                mindset
+            </div>
+            <div class="c2">
+                Authentically serve our customers by <br>
+                 empowering, listening, and collaborating <br>
+                 with our fellow Stackers.
+            </div>
+        </div>
+        <div class="c">
+            <div class="slogo">
+                <img src="images/hand.png" alt="">
+            </div>
+            <div class="c1">Be flexible and inclusive</div>
+            <div class="c2">
+                We do our best work when a diverse group <br>
+                of people collaborate in an environment of <br>
+                respect and trust. Create space for different <br>
+                voices to be heard, and allow flexibility in <br>
+                how people work.
+            </div>
+        </div>
+        <div class="c">
+            <div class="slogo">
+                <img src="images/discover.png" alt="">
+            </div>
+            <div class="c1"> Be transparent</div>
+            <div class="c2"> 
+                Communicate openly and honestly, both <br>
+                inside and outside the company. Encourage <br>
+                transparency from others by being <br>
+                empathetic, reliable, and acting with <br>
+                integrity.</div>
+        </div>
+        <div class="c">
+            <div class="slogo">
+                <img src="images/web.png" alt="">
+            </div>
+            <div class="c1">
+                Empower people to deliver <br>
+                outstanding results
+                </div>
+            <div class="c2">
+                Give people space to get their job done, <br>
+                support them when they need it, and <br>
+                practice blameless accountability.
+            </div>
+        </div>
+        <div class="c">
+            <div class="slogo">
+                <img src="images/community.png" alt="">
+            </div>
+            <div class="c1">
+                Keep community at our center
+            </div>
+            <div class="c2">
+                Community is at the heart of everything we <br>
+                do. Nurture healthy communities where <br>
+                everyone is encouraged to learn and give <br>
+                back.
+            </div>
+        </div>
+        <div class="c">
+            <div class="slogo">
+                <img src="images/analytics.png" alt="">
+            </div>
+            <div class="c1"> Learn, share, grow</div>
+            <div class="c2">
+                Adopt a Growth Mindset. Be curious and <br>
+                eager to learn. Aim for ethical, sustainable, <br>
+                long-term growth, both personally and in <br>
+                the company.
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<!-- section5 -->
+<!-- 
+<div id="section5">
+    <div id="ta6">
+        <div class="d">
+            <div class="d1">Where we work</div>
+            <div class="d2">
+                We're proud to be a remote first company working <br>
+                across many timezones.
+                </div>
+            <div class="d3">
+                <button class="button1">Current Job Openings</button>
+                <button class="button2">Contact Us</button>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<!-- section6 -->
+<!-- 
+<div id="section6">
+    <div id="ta7">
+        <div id="e">
+            <div class="e1">
+                <img src="images/q.png" alt="" id="img1">
+            </div>
+            <div class="e2">
+                Check out our FAQ about how Stack <br>
+                Overflow works
+            </div>
+            <div class="e3">
+                <button class="b3">
+                    Get help
+                </button>
+            </div>
+        </div>
+        <div id="f">
+            <div class="f1">
+                <img src="images/web2.png" alt="" id="img2">
+            </div>
+            <div class="f2">
+                    To share feeback about our platform, <br>
+                    please visit our meta community.
+            </div>
+            <div class="f3">
+                <button class="b3">
+                    Visit Meta
+                </button>
+            </div>
+        </div>
+        <div id="g">
+            <div class="g1">
+                <img src="images/community2.png" alt="" id="img3">
+            </div>
+            <div class="g2">
+                    Looking for help with Stack Overflow for Teams?
+            </div>
+            <div class="g3">
+                <button class="b3">
+                    Teams help
+                </button>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<!-- section7 -->
+<!-- 
+<div id="section7">
+    <div id="ta8">
+        <div class="h">
+            <div class="h3">
+                <img src="images/LOGO.png" alt="">
+            </div>
+            <div class="h4">
+                <div class="h5">
+                    <div class="h6">Light</div>
+                    <div class="h7">Dark</div>
+                    <div class="h8">Auto</div>
+                </div>
+            </div>
+        </div>
+        <div class="i">
+            <div class="i1">STACK OVERFLOW</div>
+            <div class="i2">
+                <ul class="list">
+                    <li><a href=""> About </a> </li>
+                    <li><a href=""> Press </a></li>
+                    <li><a href="">  Work Here </a></li>
+                    <li><a href=""> Contact Us </a></li>
+                    <li><a href=""> Questions </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="j">
+            <div class="j1">PRODUCTS</div>
+            <div class="j2">
+                <ul class="list">
+                    <li><a href=""> Teams </a></li>
+                    <li><a href=""> Advertising </a></li>
+                    <li><a href=""> Collectives </a></li>
+                    <li><a href=""> Talent </a></li>
+                </ul> 
+            </div>
+        </div>
+        <div class="l">
+            <div class="l1">POLICIES</div>
+            <div class="l2">
+                <ul class="list">
+                    <li><a href=""> Legal </a></li>
+                    <li><a href=""> Privacy Policy </a></li>
+                    <li><a href=""> Terms of Service </a></li>
+                    <li><a href=""> Cookie Settings </a></li>
+                    <li><a href=""> Cookie Policy </a></li>
+                </ul> 
+            </div>
+        </div>
+        <div class="m">
+            <div class="m1">CHANNELS</div>
+            <div class="m2">
+                <ul class="list">
+                    <li><a href=""> Blog </a></li>
+                    <li><a href=""> Podcast </a></li>
+                    <li><a href=""> Newsletter </a></li>
+                    <li><a href=""> Twitter </a></li>
+                    <li><a href=""> LinkedIn </a></li>
+                    <li><a href=""> Instagram </a></li>
+                </ul> 
+            </div>
+        </div>
+    </div>
+</div>
+     -->
+<script src="script.js"></script>
+</body>
+</html>
+

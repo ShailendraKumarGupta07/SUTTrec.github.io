@@ -1,0 +1,309 @@
+/* Navabr section media queries */
+@media screen and (max-width:1500px) and (min-width:1400px){
+    #nav5{
+        margin-left: 250px;
+    }
+}
+@media screen and (max-width:1400px) and (min-width:1300px){
+    #nav5{
+        margin-left: 150px;
+    }
+}
+@media screen and (max-width:1300px) and (min-width:1200px){
+    #nav5{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:1200px) and (min-width:1100px){
+    #nav5{
+        margin-left: 0px;
+    }
+    #navbar{
+        gap: 5px;
+    }
+}
+@media screen and (max-width:1100px) and (min-width:1000px){
+    #nav5{
+        margin-left: 0px;
+    }
+    #navbar{
+        gap: 0px;
+    }
+}
+@media screen and (max-width:1000px) and (min-width:955px){
+    #nav5{
+        margin-left: 0px;
+    }
+    #navbar{
+        gap: 0px;
+    }
+
+}
+@media screen and (max-width:1000px) and (min-width:0px){
+#nav1, #nav2, #nav3, #nav4, #nav5, #nav6{
+    display: none;
+}
+
+}
+
+
+
+
+/* section1 medias */
+@media screen and (max-width:1400px) and (min-width:1250px){
+    #text1{
+        font-size: 1.1rem;
+    }
+    #text2{
+        font-size: 2.5rem;
+    }
+    #text3, #text4{
+        font-size:1.1rem;
+    }
+}
+@media screen and (max-width:1250px) and (min-width:1150px){
+    #text1{
+        font-size: 1.1rem;
+    }
+    #text2{
+        font-size: 2.5rem;
+    }
+    #text3, #text4{
+        font-size:1.1rem;
+    }
+    #section1{
+        background-position: 0 70%;
+        background-size: 41% auto;
+    }
+}
+@media screen and (max-width:1150px) and (min-width:1050px){
+    #text1{
+        font-size: 1rem;
+    }
+    #text2{
+        font-size: 2.25rem;
+    }
+    #text3, #text4{
+        font-size:1rem;
+    }
+    #section1{
+        background-position: 0 60%;
+        background-size: 41% auto;
+    }
+}
+@media screen and (max-width:1050px) and (min-width:1000px){
+    #ta1{
+        right: 1%;
+    }
+    #text1{
+        font-size: 1rem;
+        flex-wrap: wrap;
+    }
+    #text2{
+        font-size: 2.15rem;
+        flex-wrap: wrap;
+    }
+    #text3, #text4{
+        font-size:1rem;
+        flex-wrap: wrap;
+    }
+    #section1{
+        background-position: 0 50%;
+        background-size: 41% auto;
+    }
+}
+@media screen and (max-width:1000px) and (min-width:750px){
+    #section1{
+        background: url('images/mediaback.png');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: 70% auto;
+    }
+    #ta1{
+        right: 1%;
+        position: relative;
+        display: flex;
+        align-items: left;
+        left: 8%;
+        top: 100%;
+    }
+    #text1{
+        font-size: 1.25rem;
+        flex-wrap: wrap;
+    }
+    #text2{
+        font-size: 2.5rem;
+        flex-wrap: wrap;
+    }
+    #text3, #text4{
+        font-size:1.25rem;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:750px) and (min-width:690px){
+    #section1{
+        background: url('images/mediaback.png');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: 70% auto;
+    }
+    #ta1{
+        right: 1%;
+        position: relative;
+        display: flex;
+        align-items: left;
+        left: 8%;
+        top: 100%;
+    }
+    #text1{
+        font-size: 1.15rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #text2{
+        font-size: 2.25rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #text3, #text4{
+        font-size:1.15rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:690px) and (min-width:600px){
+    #section1{
+        background: url('images/mediaback.png');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: 70% auto;
+    }
+    #ta1{
+        right: 1%;
+        position: relative;
+        display: flex;
+        align-items: left;
+        left: 8%;
+        top: 90%;
+    }
+    #text1{
+        font-size: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #text2{
+        font-size: 2.05rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #text3, #text4{
+        font-size:1rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:600px) and (min-width:500px){
+    #section1{
+        background: url('images/mediaback.png');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: 70% auto;
+    }
+    #ta1{
+        right: 1%;
+        position: relative;
+        display: flex;
+        align-items: left;
+        left: 8%;
+        top: 90%;
+    }
+    #text1{
+        font-size: 0.8rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #text2{
+        font-size: 1.75rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #text3, #text4{
+        font-size:0.8rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:500px) and (min-width:400px){
+    #section1{
+        background: url('images/mediaback.png');
+        background-repeat: no-repeat;
+        background-position: 50% 30%;
+        background-size: 70% auto;
+    }
+    #ta1{
+        right: 1%;
+        position: relative;
+        display: flex;
+        align-items: left;
+        left: 8%;
+        top: 70%;
+    }
+    #text1{
+        font-size: 0.8rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #text2{
+        font-size: 1.65rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #text3, #text4{
+        font-size:0.8rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .text3a{
+        flex-direction: column;
+    }
+    .text4a{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:400px) and (min-width:320px){
+    #section1{
+        background: url('images/mediaback.png');
+        background-repeat: no-repeat;
+        background-position: 50% 15%;
+        background-size: 70% auto;
+    }
+    #ta1{
+        right: 1%;
+        position: relative;
+        display: flex;
+        align-items: left;
+        left: 8%;
+        top: 50%;
+    }
+    #text1{
+        font-size: 0.65rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #text2{
+        font-size: 1.45rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #text3, #text4{
+        font-size:0.65rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .text3a{
+        flex-direction: column;
+    }
+    .text4a{
+        flex-direction: column;
+    }
+}
