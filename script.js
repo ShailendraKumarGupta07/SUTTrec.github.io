@@ -64,6 +64,63 @@ function onClickMenu3(){
       y.classList.add("adjustment");
   }
 }
+function onClickMenu4(){
+    document.getElementById("menu").style.position="fixed";
+    var y= document.getElementById("logo");
+   
+   var x =document.getElementById("ContentA");
+   if (x.style.display === "block") {
+    x.style.display = "none";
+    y.classList.add("adjustment");
+    document.getElementById("ContentA").style.display="none";
+    document.getElementById("showbutton2").style.transform="translateY(0px)";
+    document.getElementById("showbutton3").style.transform="translateY(0px)";
+    document.getElementById("showbutton4").style.transform="translateY(0px)";
+    document.getElementById("showbutton5").style.transform="translateY(0px)";
+    document.getElementById("move1").style.transform="translateY(0px)";
+    document.getElementById("move2").style.transform="translateY(0px)";
+    document.getElementById("move3").style.transform="translateY(0px)";
+
+  } else {
+      x.style.position="absolute";
+      x.style.top="9%";
+      x.style.display = "block";
+      y.classList.add("adjustment");
+      document.getElementById("showbutton2").style.transform="translateY(236px)";
+      document.getElementById("showbutton3").style.transform="translateY(236px)";
+      document.getElementById("showbutton4").style.transform="translateY(236px)";
+      document.getElementById("showbutton5").style.transform="translateY(236px)";
+      document.getElementById("move1").style.transform="translateY(236px)";
+      document.getElementById("move2").style.transform="translateY(236px)";
+      document.getElementById("move3").style.transform="translateY(236px)";
+  }
+}
+function onClickMenu5(){
+    document.getElementById("menu").style.position="fixed";
+    var y= document.getElementById("logo");
+  
+   
+   var x =document.getElementById("Contents");
+   if (x.style.display === "block") {
+    x.style.display = "none";
+    y.classList.add("adjustment");
+    document.getElementById("ContentA").style.display="none";
+    document.getElementById("showbutton5").style.transform="translateY(0px)";
+    document.getElementById("move1").style.transform="translateY(0px)";
+    document.getElementById("move2").style.transform="translateY(0px)";
+    document.getElementById("move3").style.transform="translateY(0px)";
+
+  } else {
+      x.style.position="absolute";
+      x.style.top="32 %";
+      x.style.display = "block";
+      y.classList.add("adjustment");
+      document.getElementById("showbutton5").style.transform="translateY(166px)";
+      document.getElementById("move1").style.transform="translateY(166px)";
+      document.getElementById("move2").style.transform="translateY(166px)";
+      document.getElementById("move3").style.transform="translateY(166px)";
+  }
+}
 
 // 2.Javascript for navbar links 
 document.getElementById("nav1").addEventListener('mouseenter', () =>{
@@ -72,6 +129,7 @@ document.getElementById("nav1").addEventListener('mouseenter', () =>{
     document.getElementById("contentA").style.display="none";
     document.getElementById("Bar1").style.display="block";
     document.getElementById("Bar3").style.display="none";
+    
 })
 document.getElementById("nav1").addEventListener('mouseleave', () =>{
     document.getElementById("Bar1").style.display="none";
