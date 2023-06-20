@@ -906,15 +906,21 @@
     }
     .n3{
         font-size: 1.1rem;
+        text-align: center;
     }
     .n2{
         font-size: 1.1rem;
     }
     .s2a, .r2a, .o2a, .p2a{
-        font-size: 0.7rem;
+        font-size: 1rem;
+        padding-left: 20px;
+    }
+    .s3a, .r3a, .o3a, .p3a{
+        display: flex;
+        padding-left: 20px;
     }
     .s1a3, .r1a3, .o1a3, .p1a3 {
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
     .s1a, .r1a, .o1a, .p1a {
         flex-direction: column;
@@ -1080,11 +1086,13 @@
     .o2, .p2, .s2, .r2{
         display: none;
     }
+
+
 }
 @media screen and (max-width:380px) and (min-width:300px){
     #section3{
         height: 300vh ;
-        margin-top: 700px;
+        margin-top: 750px;
     }
     #header .h1{
         font-size: 1.2rem;
@@ -1133,10 +1141,10 @@
         gap: 20px;
     }
     .s1a3, .r1a3, .o1a3, .p1a3{
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     .s2a, .r2a, .o2a, .p2a{
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     .s1, .r1, .o1, .p1{
         padding: 10px;
@@ -1146,7 +1154,7 @@
         height: 50vh;
     }
     #products .b2{
-        height: 40vh;
+        height: 45vh;
         width: 82vw;
         
     }
@@ -1159,6 +1167,9 @@
     }
     .o2, .p2, .s2, .r2{
         display: none;
+    }
+    #section3 p{
+        text-align: center;
     }
 }
 @media screen and (max-width:450px) and (min-width:300px){
@@ -1219,7 +1230,12 @@
 }
 @media screen and (max-width:400px) and (min-width:300px){
     #companies{
-        gap: 245
+        gap: 245vw;
+}
+}
+@media screen and (max-width:300px) and (min-width:200px){
+    #companies{
+        gap: 275vw;
 }
 }
 
@@ -1306,6 +1322,16 @@
         flex-direction: column;
         width: 84vw;
         margin-left: 0;
+    }
+    
+    #header3 .h1{
+        font-size: 1rem;
+    }
+    #header3{
+        gap: 5px;
+    }
+    #header3 .bar8{
+        width: 14px;
     }
 }
 @media screen and (max-width:250px) and (min-width:200px){
